@@ -174,6 +174,9 @@
     "/52hrtt/:area?/:type?": [
         "nczitzk"
     ],
+    "/5eplay/article": [
+        "Dlouxgit"
+    ],
     "/6park/:id?": [
         "nczitzk"
     ],
@@ -324,8 +327,26 @@
     "/airchina/announcement": [
         "LandonLi"
     ],
+    "/aisixiang/column/:id": [
+        "HenryQW",
+        "nczitzk"
+    ],
+    "/aisixiang/ranking/:id?/:period?": [
+        "HenryQW",
+        "nczitzk"
+    ],
+    "/aisixiang/toplist/:id?/:period?": [
+        "nczitzk"
+    ],
+    "/aisixiang/thinktank/:id/:type?": [
+        "hoilc",
+        "nczitzk"
+    ],
     "/ajmide/:id": [
         "Fatpandac"
+    ],
+    "/aliresearch/information/:type?": [
+        "nczitzk"
     ],
     "/aliyun/database_month": [
         "junbaor"
@@ -480,6 +501,9 @@
     ],
     "/baai/hub/:tagId?/:sort?/:range?": [
         "TonyRL"
+    ],
+    "/bad/:path+": [
+        "nczitzk"
     ],
     "/baidu/gushitong/index": [
         "CaoMeiYouRen"
@@ -786,6 +810,12 @@
     ],
     "/bluestacks/release/5": [
         "TonyRL"
+    ],
+    "/bmkg/earthquake": [
+        "Shinanory"
+    ],
+    "/bmkg/news": [
+        "Shinanory"
     ],
     "/bnu/bs/:category?": [
         "nczitzk"
@@ -1134,7 +1164,8 @@
         "Fatpandac"
     ],
     "/cnki/author/:code": [
-        "harveyqiu"
+        "harveyqiu",
+        "Derekmini"
     ],
     "/cntheory/paper/:id?": [
         "nczitzk"
@@ -1151,6 +1182,9 @@
     ],
     "/coindesk/consensus-magazine": [
         "jameshih"
+    ],
+    "/comicat/search/:keyword": [
+        "Cyang39"
     ],
     "/comicskingdom/:name": [
         "stjohnjohnson"
@@ -1320,6 +1354,12 @@
     "/ddosi/category/:category": [
         "XinRoom"
     ],
+    "/deadline": [
+        "TonyRL"
+    ],
+    "/deadline/": [
+        "TonyRL"
+    ],
     "/dedao/figure": [
         "nczitzk"
     ],
@@ -1342,6 +1382,9 @@
         "nczitzk",
         "TonyRL"
     ],
+    "/devolverdigital/blog": [
+        "XXY233"
+    ],
     "/dgjyw/:category?": [
         "nczitzk"
     ],
@@ -1360,7 +1403,7 @@
     "/diershoubing/news": [
         "wushijishan"
     ],
-    "/discord/channel/:channelID": [
+    "/discord/channel/:channelId": [
         "TonyRL"
     ],
     "/disinfo/publications": [
@@ -1580,6 +1623,12 @@
     "/dx2025/:type?/:category?": [
         "nczitzk"
     ],
+    "/dxy/bbs/profile/thread/:userId": [
+        "TonyRL"
+    ],
+    "/dxy/bbs/special/:specialId": [
+        "TonyRL"
+    ],
     "/e-hentai/category/:category?/:needTorrents?/:needImages?": [
         "nczitzk"
     ],
@@ -1745,6 +1794,9 @@
     "/finviz/:category?": [
         "nczitzk"
     ],
+    "/firecore/:os": [
+        "NathanDai"
+    ],
     "/firefox/breaches": [
         "TonyRL"
     ],
@@ -1765,6 +1817,21 @@
     ],
     "/focustaiwan/:category?": [
         "nczitzk"
+    ],
+    "/followin/kol/:kolId/:lang?": [
+        "TonyRL"
+    ],
+    "/followin/news/:lang?": [
+        "TonyRL"
+    ],
+    "/followin/tag/:tagId/:lang?": [
+        "TonyRL"
+    ],
+    "/followin/topic/:topicId/:lang?": [
+        "TonyRL"
+    ],
+    "/followin/:categoryId?/:lang?": [
+        "TonyRL"
     ],
     "/foresightnews/": [
         "nczitzk"
@@ -1819,8 +1886,15 @@
     "/furstar/archive/:lang?": [
         "NeverBehave"
     ],
+    "/futunn/main": [
+        "Wsine",
+        "nczitzk"
+    ],
     "/fx-markets/fx-markets/:channel": [
         "mikkkee"
+    ],
+    "/fzmtr/announcements": [
+        "HankChow"
     ],
     "/gameapps/": [
         "TonyRL"
@@ -2284,6 +2358,9 @@
     "/guangdiu/:query?": [
         "Fatpandac"
     ],
+    "/guangzhoumetro/news": [
+        "HankChow"
+    ],
     "/guanhai": [
         "TonyRL"
     ],
@@ -2615,6 +2692,9 @@
     ],
     "/hyqss/hywb/:id?": [
         "nczitzk"
+    ],
+    "/i-cable/:category?": [
+        "tpnonthealps"
     ],
     "/ibc/maitta": [
         "fengkx"
@@ -3712,6 +3792,12 @@
     "/nogizaka46/blog": [
         "Kasper4649"
     ],
+    "/notefolio/search/:category?/:order?/:time?/:query?": [
+        "BianTan"
+    ],
+    "/notion/database/:databaseId": [
+        "curly210102"
+    ],
     "/now/news/:category?/:id?": [
         "nczitzk"
     ],
@@ -4538,6 +4624,9 @@
         "junfengP",
         "nczitzk"
     ],
+    "/sehuatang/user/:uid": [
+        "JamYiz"
+    ],
     "/sehuatang/:subforumid?/:type?": [
         "qiwihui",
         "junfengP",
@@ -4771,6 +4860,12 @@
     "/startuplatte/:category?": [
         "nczitzk"
     ],
+    "/stbu/jsjxy": [
+        "HyperCherry"
+    ],
+    "/stbu/xyxw": [
+        "HyperCherry"
+    ],
     "/stcn/:id?": [
         "nczitzk"
     ],
@@ -4934,6 +5029,15 @@
     "/techflowpost/": [
         "nczitzk"
     ],
+    "/techpowerup": [
+        "TonyRL"
+    ],
+    "/techpowerup/": [
+        "TonyRL"
+    ],
+    "/techpowerup/review/:keyword?": [
+        "TonyRL"
+    ],
     "/telecompaper/news/:caty/:year?/:country?/:type?": [
         "nczitzk"
     ],
@@ -5094,6 +5198,9 @@
     "/tingshuitz/nanjing": [
         "ocleo1"
     ],
+    "/tingshuitz/shenzhen": [
+        "lilPiper"
+    ],
     "/tingshuitz/wuhan": [
         "MoonBegonia"
     ],
@@ -5105,6 +5212,9 @@
     ],
     "/tingshuitz/yangjiang": [
         "ciaranchen"
+    ],
+    "/tingtingfm/program/:programId": [
+        "TonyRL"
     ],
     "/tisi/latest": [
         "Fatpandac"
@@ -5340,6 +5450,12 @@
     "/usts/juch/:type?": [
         "Fatpandac"
     ],
+    "/utgd/:category?": [
+        "nczitzk"
+    ],
+    "/utgd/topic/:topic?": [
+        "nczitzk"
+    ],
     "/uw/gix/news/:category": [
         "dykderrick"
     ],
@@ -5473,8 +5589,13 @@
     "/weekendhk/": [
         "TonyRL"
     ],
+    "/weibo/group/:gid/:gname?/:routeParams?": [
+        "monologconnor",
+        "Rongronggg9"
+    ],
     "/weibo/keyword/:keyword/:routeParams?": [
-        "DIYgod"
+        "DIYgod",
+        "Rongronggg9"
     ],
     "/weibo/oasis/user/:userid": [
         "kt286"
@@ -5483,11 +5604,12 @@
         "xyqfer"
     ],
     "/weibo/super_index/:id/:type?/:routeParams?": [
-        "zengxs"
+        "zengxs",
+        "Rongronggg9"
     ],
     "/weibo/timeline/:uid/:feature?/:routeParams?": [
         "zytomorrow",
-        "DIYgod ",
+        "DIYgod",
         "Rongronggg9"
     ],
     "/weibo/user/:uid/:routeParams?": [
@@ -5614,8 +5736,9 @@
     "/xiaohongshu/user/:user_id/collect": [
         "lotosbin"
     ],
-    "/xiaohongshu/user/:user_id/notes": [
-        "lotosbin"
+    "/xiaohongshu/user/:user_id/notes/:fulltext?": [
+        "lotosbin",
+        "howerhe"
     ],
     "/xiaomiyoupin/crowdfunding": [
         "bigfei"
@@ -5779,7 +5902,7 @@
     "/yoasobi-music/media": [
         "Kiotlin"
     ],
-    "/yomiuri/yomiuri/:category?": [
+    "/yomiuri/:category?": [
         "Arracc"
     ],
     "/youku/channel/:channelId/:embed?": [
@@ -6023,6 +6146,9 @@
         "5upernova-heng"
     ],
     "/zyshow/:region?/:id": [
+        "nczitzk"
+    ],
+    "/zyw/hot/:site?": [
         "nczitzk"
     ],
     "/1draw": [],
@@ -6358,9 +6484,6 @@
     "/gaoqing/latest": [],
     "/whalegogo/home": [],
     "/whalegogo/portal/:type_id/:tagid?": [],
-    "/aisixiang/column/:id": [],
-    "/aisixiang/ranking/:type?/:range?": [],
-    "/aisixiang/thinktank/:name/:type?": [],
     "/leetcode/submission/us/:user": [],
     "/leetcode/submission/cn/:user": [],
     "/xiaomieu/releases": [],
@@ -6836,7 +6959,6 @@
     "/egameqq/room/:id": [],
     "/gov/chinatax/latest": [],
     "/lizhi/user/:id": [],
-    "/futunn/highlights": [],
     "/boston/:tag?": [],
     "/changku": [],
     "/changku/cate/:postid": [],
@@ -6939,7 +7061,6 @@
     "/cktest/policy": [],
     "/mamibuy/:caty?/:age?/:sort?": [],
     "/mercari/:type/:id": [],
-    "/notefolio/:caty?/:order?/:time?/:query?": [],
     "/weforum/report/:lang?/:year?/:platform?": [],
     "/nobelprize/:caty?": [],
     "/gov/taiwan/mnd": [],
@@ -7002,7 +7123,6 @@
     "/matataki/tags/:tagId/:tagName/posts/:ipfsFlag?": [],
     "/matataki/users/:userId/favorites/:favoriteListId/posts/:ipfsFlag?": [],
     "/zhimap/:categoryUuid?/:recommend?": [],
-    "/icable/:category/:option?": [],
     "/processon/popular/:cate?/:sort?": [],
     "/mathpix/blog": [],
     "/onenotegem/release": [],
