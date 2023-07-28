@@ -1,4 +1,16 @@
 {
+  "81.cn": {
+    "_name": "中国军网",
+    "81rc": [
+      {
+        "title": "军队人才网",
+        "docs": "https://docs.rsshub.app/government.html#zhon-guo-jun-wang-jun-dui-ren-cai-wang",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "163.com": {
     "_name": "网易",
     ".": [
@@ -773,6 +785,15 @@
           "/"
         ],
         "target": "/36kr/search/newsflashes/:keyword"
+      },
+      {
+        "title": "资讯热榜",
+        "docs": "https://docs.rsshub.app/new-media.html#_36kr-zi-xun-re-bang",
+        "source": [
+          "/hot-list/:category",
+          "/"
+        ],
+        "target": "/36kr/hot-list/:category"
       }
     ]
   },
@@ -1468,6 +1489,28 @@
       }
     ]
   },
+  "agemys.org": {
+    "_name": "AGE动漫",
+    ".": [
+      {
+        "title": "最近更新",
+        "docs": "https://docs.rsshub.app/anime.html#age-dong-man",
+        "source": [
+          "/update",
+          "/"
+        ],
+        "target": "/agefans/update"
+      },
+      {
+        "title": "番剧详情",
+        "docs": "https://docs.rsshub.app/anime.html#age-dong-man",
+        "source": [
+          "/detail/:id"
+        ],
+        "target": "/agefans/detail/:id"
+      }
+    ]
+  },
   "aotter.net": {
     "_name": "電獺少女",
     "agirls": [
@@ -1636,6 +1679,14 @@
         "docs": "https://docs.rsshub.app/reading.html#ai-si-xiang",
         "source": [
           "/data/search",
+          "/"
+        ]
+      },
+      {
+        "title": "专题",
+        "docs": "https://docs.rsshub.app/reading.html#ai-si-xiang",
+        "source": [
+          "/zhuanti",
           "/"
         ]
       },
@@ -3359,6 +3410,20 @@
       }
     ]
   },
+  "blizzard.com": {
+    "_name": "Blizzard",
+    "news": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/game.html#blizzard",
+        "source": [
+          "/:language/:category?",
+          "/:language"
+        ],
+        "target": "/blizzard/news/:language/:category?"
+      }
+    ]
+  },
   "theblockbeats.info": {
     "_name": "律动",
     "rszhaopin": [
@@ -3524,6 +3589,16 @@
           "/"
         ],
         "target": "/bse/:category?/:keyword?"
+      }
+    ]
+  },
+  "bsky.app": {
+    "_name": "Bluesky",
+    ".": [
+      {
+        "title": "关键词",
+        "docs": "https://docs.rsshub.app/social-media.html#bluesky-bsky",
+        "source": "/search"
       }
     ]
   },
@@ -3780,6 +3855,15 @@
         "target": "/cas/ia/yjs"
       }
     ],
+    "www.is": [
+      {
+        "title": "软件研究所",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-ke-xue-yuan",
+        "source": [
+          "/"
+        ]
+      }
+    ],
     "www.sim": [
       {
         "title": "上海微系统与信息技术研究所 - 科技进展",
@@ -3851,6 +3935,18 @@
           "/"
         ],
         "target": "/cau/yjs"
+      }
+    ]
+  },
+  "cbaigui.com": {
+    "_name": "纪妖",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/new-media.html#ji-yao-tong-yong",
+        "source": [
+          "/"
+        ]
       }
     ]
   },
@@ -3947,15 +4043,12 @@
   },
   "91wllm.com": {
     "_name": "湖北高校就业网络联盟",
-    "ccnu": [
+    "wtu": [
       {
-        "title": "华中师范大学就业信息",
-        "docs": "https://docs.rsshub.app/university.html#hua-zhong-shi-fan-da-xue",
-        "source": [
-          "/news/index/tag/tzgg",
-          "/"
-        ],
-        "target": "/ccnu/career"
+        "title": "武汉纺织大学就业信息",
+        "docs": "https://docs.rsshub.app/university.html#wu-han-fang-zhi-da-xue",
+        "source": "/news/index/tag/:type",
+        "target": "/wtu/job/:type"
       }
     ]
   },
@@ -5306,6 +5399,19 @@
       }
     ]
   },
+  "curiouscat.live": {
+    "_name": "CuriousCat",
+    ".": [
+      {
+        "title": "User",
+        "docs": "https://docs.rsshub.app/en/social-media.html#curiouscat",
+        "source": [
+          "/:id"
+        ],
+        "target": "/curiouscat/user/:id"
+      }
+    ]
+  },
   "curius.app": {
     "_name": "Curius",
     ".": [
@@ -5690,10 +5796,26 @@
   },
   "dhu.edu.cn": {
     "_name": "东华大学",
+    "gs": [
+      {
+        "title": "研究生院通知",
+        "docs": "https://docs.rsshub.app/university.html#dong-hua-da-xue"
+      }
+    ],
     "jw": [
       {
         "title": "教务处通知",
         "docs": "https://docs.rsshub.app/university.html#dong-hua-da-xue"
+      }
+    ],
+    "news": [
+      {
+        "title": "学术信息",
+        "docs": "https://docs.rsshub.app/university.html#dong-hua-da-xue",
+        "source": [
+          "/6410"
+        ],
+        "target": "/dhu/news/xsxx"
       }
     ],
     "xxgk": [
@@ -7819,6 +7941,19 @@
       }
     ]
   },
+  "fx678.com": {
+    "_name": "汇通网",
+    ".": [
+      {
+        "title": "7x24 小时快讯",
+        "docs": "https://docs.rsshub.app/finance.html#hui-tong-wang",
+        "source": [
+          "/kx"
+        ],
+        "target": "/fx678/kx"
+      }
+    ]
+  },
   "fzmtr.com": {
     "_name": "福州地铁",
     "www": [
@@ -8015,6 +8150,14 @@
           "/categories/:category"
         ],
         "target": "/gcores/radios/:category"
+      },
+      {
+        "title": "专题",
+        "docs": "https://docs.rsshub.app/new-media.html#ji-he-wang-zhuan-ti",
+        "source": [
+          "/collections/:collection"
+        ],
+        "target": "/gcores/collections/:collection"
       }
     ]
   },
@@ -8218,6 +8361,20 @@
           "/"
         ],
         "target": "/gitpod/changelog"
+      }
+    ]
+  },
+  "globallawreview.org": {
+    "_name": "环球法律评论",
+    ".": [
+      {
+        "title": "期刊",
+        "docs": "https://docs.rsshub.app/journal.html#huan-qiu-fa-lu-ping-lun",
+        "source": [
+          "/Magazine/GetIssueContentList",
+          "/"
+        ],
+        "target": "/globallawreview"
       }
     ]
   },
@@ -8596,6 +8753,19 @@
           "/webapp/cs2020/email/*"
         ],
         "target": "/gov/hunan/changsha/major-email"
+      }
+    ]
+  },
+  "chinatax.gov.cn": {
+    "_name": "国家税务总局",
+    "www": [
+      {
+        "title": "国家税务总局 - 最新文件",
+        "docs": "https://docs.rsshub.app/government.html#guo-jia-shui-wu-zong-ju",
+        "source": [
+          "/*"
+        ],
+        "target": "/gov/chinatax/latest"
       }
     ]
   },
@@ -9128,6 +9298,16 @@
           "/col/*category"
         ]
       }
+    ],
+    "dsj": [
+      {
+        "title": "电视剧政务平台",
+        "docs": "https://docs.rsshub.app/government.html#guo-jia-guang-bo-dian-shi-zong-ju",
+        "source": [
+          "/tims/site/views/applications.shanty",
+          "/"
+        ]
+      }
     ]
   },
   "nsfc.gov.cn": {
@@ -9257,6 +9437,16 @@
         "source": [
           "/"
         ]
+      }
+    ],
+    "wsbs.wgj": [
+      {
+        "title": "上海市文旅局审批公告",
+        "docs": "https://docs.rsshub.app/government.html#shang-hai-shi-ren-min-zheng-fu-shang-hai-shi-wen-lv-ju-shen-pi-gong-gao",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/shanghai/wgj"
       }
     ]
   },
@@ -9808,6 +9998,28 @@
       }
     ]
   },
+  "hacking8.com": {
+    "_name": "Hacking8",
+    ".": [
+      {
+        "title": "信息流",
+        "docs": "https://docs.rsshub.app/programming.html#hacking8-xin-xi-liu",
+        "source": [
+          "/index/:category",
+          "/"
+        ],
+        "target": "/hacking8/:category?"
+      },
+      {
+        "title": "搜索",
+        "docs": "https://docs.rsshub.app/programming.html#hacking8-sou-suo",
+        "source": [
+          "/search",
+          "/"
+        ]
+      }
+    ]
+  },
   "hackmd.io": {
     "_name": "HackMD",
     ".": [
@@ -10059,6 +10271,28 @@
           "/blog"
         ],
         "target": "/hex-rays/news"
+      }
+    ]
+  },
+  "hinatazaka46.com": {
+    "_name": "日向坂46",
+    ".": [
+      {
+        "title": "公式ブログ",
+        "docs": "https://docs.rsshub.app/new-media.html#ban-dao-xi-lie-guan-wang-zi-xun-ri-xiang-ban-46-bo-ke",
+        "source": [
+          "/s/official/diary/member/list",
+          "/"
+        ]
+      },
+      {
+        "title": "ニュース",
+        "docs": "https://docs.rsshub.app/new-media.html#ban-dao-xi-lie-guan-wang-zi-xun-ri-xiang-ban-46-xin-wen",
+        "source": [
+          "/s/official/news/list",
+          "/"
+        ],
+        "target": "/hinatazaka46/news"
       }
     ]
   },
@@ -10614,6 +10848,20 @@
       }
     ]
   },
+  "huggingface.co": {
+    "_name": "Hugging Face",
+    ".": [
+      {
+        "title": "Daily Papers",
+        "docs": "https://docs.rsshub.app/programming.html#huggingface",
+        "source": [
+          "/papers",
+          "/"
+        ],
+        "target": "/huggingface/daily-papers"
+      }
+    ]
+  },
   "hunanpea.com": {
     "_name": "湖南人事考试网",
     "rsks": [
@@ -10624,6 +10872,15 @@
           "/Category/:guid/ArticlesByCategory.do"
         ],
         "target": "/hunanpea/rsks/:guid"
+      }
+    ]
+  },
+  "huoxian.cn": {
+    "_name": "火线",
+    "zone": [
+      {
+        "title": "Zone",
+        "docs": "https://docs.rsshub.app/bbs.html#huo-xian"
       }
     ]
   },
@@ -10912,16 +11169,30 @@
   },
   "ifeng.com": {
     "_name": "凤凰网",
-    ".": [
+    "feng": [
       {
         "title": "大风号",
-        "docs": "https://docs.rsshub.app/new-media.html#feng-huang-wang"
+        "docs": "https://docs.rsshub.app/new-media.html#feng-huang-wang",
+        "source": [
+          "/author/:id"
+        ],
+        "target": "/ifeng/feng/:id/doc"
       }
     ],
     "news": [
       {
         "title": "资讯",
         "docs": "https://docs.rsshub.app/new-media.html#feng-huang-wang-zi-xun"
+      }
+    ],
+    "ishare": [
+      {
+        "title": "大风号",
+        "docs": "https://docs.rsshub.app/new-media.html#feng-huang-wang",
+        "source": [
+          "/mediaShare/home/:id/media"
+        ],
+        "target": "/ifeng/feng/:id/doc"
       }
     ]
   },
@@ -11592,17 +11863,19 @@
     "_name": "煎蛋",
     ".": [
       {
-        "title": "首页",
-        "docs": "https://docs.rsshub.app/picture.html#jian-dan-shou-ye",
+        "title": "首页/板块/热榜",
+        "docs": "https://docs.rsshub.app/picture.html#jian-dan",
         "source": [
           "/:category",
           "/"
         ],
         "target": "/jandan/:category?"
-      },
+      }
+    ],
+    "i": [
       {
-        "title": "板块",
-        "docs": "https://docs.rsshub.app/picture.html#jian-dan-ban-kuai",
+        "title": "首页/板块/热榜",
+        "docs": "https://docs.rsshub.app/picture.html#jian-dan",
         "source": [
           "/:category",
           "/"
@@ -12771,6 +13044,14 @@
           "/makers/:id",
           "/"
         ]
+      },
+      {
+        "title": "清单",
+        "docs": "https://docs.rsshub.app/multimedia.html#javdb-qing-dan",
+        "source": [
+          "/lists/:id/",
+          "/"
+        ]
       }
     ]
   },
@@ -12958,6 +13239,26 @@
         "source": "/topics/:id",
         "target": "/jike/topic/text/:id"
       }
+    ],
+    "web": [
+      {
+        "title": "用户动态",
+        "docs": "https://docs.rsshub.app/social-media.html#ji-ke",
+        "source": "/u/:uid",
+        "target": "/jike/user/:uid"
+      },
+      {
+        "title": "圈子",
+        "docs": "https://docs.rsshub.app/social-media.html#ji-ke",
+        "source": "/topic/:id",
+        "target": "/jike/topic/:id"
+      },
+      {
+        "title": "圈子 - 纯文字",
+        "docs": "https://docs.rsshub.app/social-media.html#ji-ke",
+        "source": "/topic/:id",
+        "target": "/jike/topic/text/:id"
+      }
     ]
   },
   "jin10.com": {
@@ -12970,6 +13271,16 @@
           "/"
         ],
         "target": "/jin10"
+      }
+    ],
+    "xnews": [
+      {
+        "title": "主题文章",
+        "docs": "https://docs.rsshub.app/finance.html#jin-shi-shu-ju",
+        "source": [
+          "/topic/:id"
+        ],
+        "target": "/jin10/topic/:id"
       }
     ]
   },
@@ -13269,6 +13580,19 @@
           "/"
         ],
         "target": "/kemono/:source?/:id?"
+      }
+    ]
+  },
+  "keylol.com": {
+    "_name": "其乐",
+    ".": [
+      {
+        "title": "论坛",
+        "docs": "https://docs.rsshub.app/game.html#qi-le-lun-tan",
+        "source": [
+          "/:category",
+          "/"
+        ]
       }
     ]
   },
@@ -14142,6 +14466,19 @@
       }
     ]
   },
+  "macupdate.com": {
+    "_name": "MacUpdate",
+    ".": [
+      {
+        "title": "更新",
+        "docs": "https://docs.rsshub.app/program-update.html#macupdate",
+        "source": [
+          "/app/mac/:appId/:appSlug"
+        ],
+        "target": "/macupdate/app/:appId/:appSlug?"
+      }
+    ]
+  },
   "magazinelib.com": {
     "_name": "magazineLib",
     ".": [
@@ -14207,6 +14544,39 @@
         "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
         "source": "/comic/:id/",
         "target": "/manhuagui/comic/:id"
+      }
+    ]
+  },
+  "mastodon.social": {
+    "_name": "Mastodon",
+    ".": [
+      {
+        "title": "用户公共时间线",
+        "docs": "https://docs.rsshub.app/social-media.html#mastodon",
+        "source": [
+          "/:acct"
+        ]
+      },
+      {
+        "title": "实例公共时间线（本站）",
+        "docs": "https://docs.rsshub.app/social-media.html#mastodon",
+        "source": [
+          "/"
+        ]
+      },
+      {
+        "title": "实例公共时间线（跨站）",
+        "docs": "https://docs.rsshub.app/social-media.html#mastodon",
+        "source": [
+          "/"
+        ]
+      },
+      {
+        "title": "用户公共时间线（备用）",
+        "docs": "https://docs.rsshub.app/social-media.html#mastodon",
+        "source": [
+          "/:acct"
+        ]
       }
     ]
   },
@@ -15279,6 +15649,26 @@
         "source": [
           "/"
         ]
+      }
+    ]
+  },
+  "nasa.gov": {
+    "_name": "NASA 每日天文图片",
+    "apod": [
+      {
+        "title": "NASA",
+        "docs": "https://docs.rsshub.app/picture.html#nasa-mei-ri-tian-wen-tu-pian",
+        "target": "/nasa/apod"
+      },
+      {
+        "title": "台湾成功大学镜像",
+        "docs": "https://docs.rsshub.app/picture.html#nasa-mei-ri-tian-wen-tu-pian",
+        "target": "/nasa/apod-ncku"
+      },
+      {
+        "title": "NASA 中文",
+        "docs": "https://docs.rsshub.app/picture.html#nasa-mei-ri-tian-wen-tu-pian",
+        "target": "/nasa/apod-cn"
       }
     ]
   },
@@ -16437,6 +16827,15 @@
       }
     ]
   },
+  "npr.org": {
+    "_name": "NPR",
+    ".": [
+      {
+        "title": "全文 RSS",
+        "docs": "https://docs.rsshub.app/traditional-media.html#npr"
+      }
+    ]
+  },
   "ntdtv.com": {
     "_name": "新唐人电视台",
     "www": [
@@ -16992,6 +17391,17 @@
   },
   "ouc.edu.cn": {
     "_name": "中国海洋大学",
+    "jwc": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-hai-yang-da-xue",
+        "source": [
+          "/",
+          "/6517/list.htm"
+        ],
+        "target": "/ouc/jwc"
+      }
+    ],
     "it": [
       {
         "title": "信息科学与工程学院",
@@ -16999,7 +17409,7 @@
         "source": [
           "/"
         ],
-        "target": "/ocu/it"
+        "target": "/ouc/it"
       },
       {
         "title": "信息科学与工程学院研究生招生通知公告",
@@ -17009,7 +17419,7 @@
           "/16619/list.htm",
           "/"
         ],
-        "target": "/ocu/it/postgraduate"
+        "target": "/ouc/it/postgraduate"
       }
     ],
     "yz": [
@@ -17019,7 +17429,7 @@
         "source": [
           "/5926/list.htm"
         ],
-        "target": "/ocu/yjs"
+        "target": "/ouc/yjs"
       }
     ]
   },
@@ -18253,6 +18663,20 @@
       }
     ]
   },
+  "radiofrance.fr": {
+    "_name": "Radio France",
+    "www": [
+      {
+        "title": "Géopolitique",
+        "docs": "https://docs.rsshub.app/traditional-media.html#fa-guo-guang-bo-dian-tai",
+        "source": [
+          "/franceinter/podcasts/geopolitique",
+          "/"
+        ],
+        "target": "/radiofrance/geopolitique"
+      }
+    ]
+  },
   "rarehistoricalphotos.com": {
     "_name": "Rare Historical Photos",
     ".": [
@@ -19033,6 +19457,37 @@
       }
     ]
   },
+  "sdzk.cn": {
+    "_name": "山东省教育招生考试院",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/study.html#shan-dong-sheng-jiao-yu-zhao-sheng-kao-shi-yuan-xin-wen",
+        "source": [
+          "/NewsList.aspx",
+          "/"
+        ]
+      }
+    ]
+  },
+  "sec-in.com": {
+    "_name": "SecIN信息安全技术社区",
+    ".": [
+      {
+        "title": "最新文章",
+        "docs": "https://docs.rsshub.app/bbs.html#secin-xin-xi-an-quan-ji-shu-she-qu"
+      }
+    ]
+  },
+  "sec-wiki.com": {
+    "_name": "SecWiki-安全维基",
+    "www": [
+      {
+        "title": "最新周刊",
+        "docs": "https://docs.rsshub.app/other.html#secwiki-an-quan-wei-ji"
+      }
+    ]
+  },
   "secrss.com": {
     "_name": "安全内参",
     ".": [
@@ -19193,6 +19648,19 @@
           "/"
         ],
         "target": "/setn/女孩"
+      }
+    ]
+  },
+  "shcstheatre.com": {
+    "_name": "上海文化广场",
+    "www": [
+      {
+        "title": "节目列表",
+        "docs": "https://docs.rsshub.app/shopping.html#shang-hai-wen-hua-guang-chang-jie-mu-lie-biao",
+        "source": [
+          "/Program/programList.aspx"
+        ],
+        "target": "/shcstheatre/programs"
       }
     ]
   },
@@ -19859,6 +20327,29 @@
       }
     ]
   },
+  "shu.edu.cn": {
+    "_name": "上海大学",
+    "jwb": [
+      {
+        "title": "教务处通知公告",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-da-xue",
+        "source": [
+          "/index/:type"
+        ],
+        "target": "/shu/jwb/:type"
+      }
+    ],
+    "www": [
+      {
+        "title": "官网信息",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-da-xue",
+        "source": [
+          "/:type"
+        ],
+        "target": "/shu/:type"
+      }
+    ]
+  },
   "shuiguopai.com": {
     "_name": "水果派",
     ".": [
@@ -20033,6 +20524,54 @@
         "docs": "https://docs.rsshub.app/bbs.html#di-yi-hui-suo",
         "source": [
           "/forum/:id"
+        ]
+      }
+    ]
+  },
+  "sjtu.edu.cn": {
+    "_name": "上海交通大学",
+    "bjwb.seiee": [
+      {
+        "title": "电子信息与电气工程学院",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue",
+        "source": [
+          "/seiee/list/:type",
+          "/bkjwb/list/:type",
+          "/xsb/list/:type"
+        ]
+      }
+    ],
+    "gs": [
+      {
+        "title": "研究生通知公告",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue-yan-jiu-sheng-tong-zhi-gong-gao",
+        "source": [
+          "/announcement/:type"
+        ],
+        "target": "/sjtu/gs/:type"
+      }
+    ],
+    "jwc": [
+      {
+        "title": "教务处通知公告",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue",
+        "source": [
+          "/xwtg/:type"
+        ]
+      }
+    ],
+    "tongqu": [
+      {
+        "title": "同去网最新活动",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue"
+      }
+    ],
+    "yzb": [
+      {
+        "title": "研究生招生网招考信息",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue",
+        "source": [
+          "/index/zkxx/:type"
         ]
       }
     ]
@@ -21024,6 +21563,20 @@
       }
     ]
   },
+  "tangshufang.com": {
+    "_name": "唐书房",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/new-media.html#tang-shu-fang-fen-lei",
+        "source": [
+          "/:category",
+          "/"
+        ],
+        "target": "/tangshufang/:category?"
+      }
+    ]
+  },
   "taobao.com": {
     "_name": "淘宝",
     "izhongchou": [
@@ -21643,6 +22196,18 @@
           "/"
         ],
         "target": "/theverge/:hub?"
+      }
+    ]
+  },
+  "threads.net": {
+    "_name": "Threads",
+    ".": [
+      {
+        "title": "User timeline",
+        "docs": "https://docs.rsshub.app/en/social-media.html#threads",
+        "source": [
+          "/:user"
+        ]
       }
     ]
   },
@@ -22907,6 +23472,14 @@
     "_name": "UNTAG",
     ".": [
       {
+        "title": "时间线",
+        "docs": "https://docs.rsshub.app/new-media.html#untag-shi-jian-xian",
+        "source": [
+          "/"
+        ],
+        "target": "/utgd/timeline"
+      },
+      {
         "title": "分类",
         "docs": "https://docs.rsshub.app/new-media.html#untag-fen-lei",
         "source": [
@@ -22949,6 +23522,19 @@
           "/"
         ],
         "target": "/v1tx"
+      }
+    ]
+  },
+  "v2rayshare.com": {
+    "_name": "V2rayShare",
+    ".": [
+      {
+        "title": "免费节点",
+        "docs": "https://docs.rsshub.app/other.html#v2rayshare",
+        "source": [
+          "/"
+        ],
+        "target": "/v2rayshare"
       }
     ]
   },
@@ -23759,6 +24345,15 @@
       }
     ]
   },
+  "wtu.edu.cn": {
+    "_name": "武汉纺织大学",
+    "wtu": [
+      {
+        "title": "信息门户公告",
+        "docs": "https://docs.rsshub.app/university.html#wu-han-fang-zhi-da-xue"
+      }
+    ]
+  },
   "wxkol.com": {
     "_name": "微小领",
     ".": [
@@ -23833,6 +24428,17 @@
       {
         "title": "人事处",
         "docs": "https://docs.rsshub.app/university.html#xi-an-li-gong-da-xue"
+      }
+    ]
+  },
+  "xboxfan.com": {
+    "_name": "盒心光环",
+    ".": [
+      {
+        "title": "资讯",
+        "docs": "https://docs.rsshub.app/game.html#he-xin-guang-huan",
+        "source": "/",
+        "target": "/xboxfan/news"
       }
     ]
   },
@@ -24222,6 +24828,19 @@
       }
     ]
   },
+  "yangtzeu.edu.cn": {
+    "_name": "长江大学",
+    ".": [
+      {
+        "title": "动物科学学院",
+        "docs": "https://docs.rsshub.app/universities.html#chang-jiang-da-xue-dong-wu-ke-xue-xue-yuan",
+        "source": [
+          "/:category",
+          "/"
+        ]
+      }
+    ]
+  },
   "yaohuo.me": {
     "_name": "妖火",
     ".": [
@@ -24432,6 +25051,11 @@
         "docs": "https://docs.rsshub.app/social-media.html#youtube",
         "source": "/user/:username",
         "target": "/youtube/user/:username"
+      },
+      {
+        "title": "用户",
+        "docs": "https://docs.rsshub.app/social-media.html#youtube",
+        "source": "/:handle"
       },
       {
         "title": "频道",
